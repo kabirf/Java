@@ -1,0 +1,24 @@
+* To check the status -
+    git status
+
+* When editing is done make local commit -
+    git add FILE_NAME
+    git commit -m "WRITE MESSAGE HERE"
+
+* To commit on origin -
+    git status     (check that there is no local changes)
+    git pull origin BRANCH_NAME      (pull all other changes from remote, and if there is any conflict fix it. after fixing do "git add" and git commit)
+    git push origin BRANCH_NAME
+
+* Check out new branch -
+    git checkout BRANCH_NAME
+
+* Pull remote changes -
+    git fetch
+    git pull origin BRANCH_NAME
+
+* List all local branches -
+    git branch -l
+
+* List all remote branches -
+    git branch -al
