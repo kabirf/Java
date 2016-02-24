@@ -3,5 +3,5 @@ package com.company;
 /**
  * Created by Pinky on 2/23/2016.
  */
-public class Chicken {
+public class Chicken extends Bird {
 }
