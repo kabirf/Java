@@ -12,7 +12,6 @@ public class Guppy extends Fish {
         super(name, sex);
         this.canLayBabies = canLayBabies;
     }
-
     public boolean getCanLayBabies() {
         return canLayBabies;
     }

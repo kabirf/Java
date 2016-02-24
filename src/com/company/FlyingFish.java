@@ -17,7 +17,12 @@ public class FlyingFish extends Fish {
     }
 
     public FlyingFish(String name, String sex, boolean canFly) {
-        super(name, sex);
+        super(name,sex);
+        this.canFly = canFly;
+    }
+
+    public FlyingFish(String hasFinns, String foodType, String eggFertilizationEnvironment, boolean canFly) {
+        super(hasFinns, foodType, eggFertilizationEnvironment);
         this.canFly = canFly;
     }
 }

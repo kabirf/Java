@@ -25,6 +25,13 @@ public class Fish {
         this.sex = sex;
     }
 
+    public Fish(String hasFinns,String foodType, String eggFertilizationEnvironment){
+        this.foodType=foodType;
+        this.hasFinns=hasFinns;
+        this.eggFertilizationEnvironment=eggFertilizationEnvironment;
+    }
+
+
     public String getName() {
         return name;
     }
