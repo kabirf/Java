@@ -1,12 +1,14 @@
 package com.company;
 
-import printer.ExPrinter;
-
 /**
  * Created by Pinky on 2/24/2016.
  */
-public class DotPrinter extends ExPrinter {
+public class DotPrinter extends Printer {
     private String name=" in dot printer";
+
+    public DotPrinter(String takeName) {
+        super(takeName);
+    }
 
     @Override
     public String getPrint(){
@@ -14,7 +16,7 @@ public class DotPrinter extends ExPrinter {
     }
 
     public String getTakeName(){
-        return name + takeName;
+        return hello+takeName+print+name;
     }
 
 }
