@@ -5,8 +5,19 @@ package com.company;
  */
 
 //fish that can fly
-public class FlyingFish extends Fish{
-    public FlyingFish(String name, String sex) {
+public class FlyingFish extends Fish {
+    private boolean canFly;
+
+    public boolean getCanFly() {
+        return canFly;
+    }
+
+    public void setCanFly(boolean canFly) {
+        this.canFly = canFly;
+    }
+
+    public FlyingFish(String name, String sex, boolean canFly) {
         super(name, sex);
+        this.canFly = canFly;
     }
 }
