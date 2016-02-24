@@ -1,7 +1,7 @@
 package com.bird;
 
 /**
- * Created by samilun on 2/24/2016.
+ * Created by sharlene on 2/24/2016.
  */
 public class Chicken extends Bird {
 
@@ -12,8 +12,12 @@ public class Chicken extends Bird {
         this.canFlyLongDistance = canFlyLongDistance;
     }
 
-    @Override
-    public String toString() {
-        return "Hello I am " + this.name ;
+    public boolean getCanFlyLongDistance() {
+        return canFlyLongDistance;
     }
+
+    public void setCanFlyLongDistance(boolean canFlyLongDistance) {
+        this.canFlyLongDistance = canFlyLongDistance;
+    }
+
 }

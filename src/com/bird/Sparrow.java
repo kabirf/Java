@@ -12,9 +12,12 @@ public class Sparrow extends Bird {
         this.buildNestInCity = buildNestInCity;
     }
 
-    @Override
-    public String toString() {
-        return "Hello I am " + this.name ;
+    public boolean isBuildNestInCity() {
+        return buildNestInCity;
+    }
+
+    public void setBuildNestInCity(boolean buildNestInCity) {
+        this.buildNestInCity = buildNestInCity;
     }
 
 }

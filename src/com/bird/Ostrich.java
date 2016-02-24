@@ -12,8 +12,12 @@ public class Ostrich extends Bird{
         this.hasLongNeck = hasLongNeck;
     }
 
-    @Override
-    public String toString() {
-        return "Hello I am " + this.name ;
+    public boolean isHasLongNeck() {
+        return hasLongNeck;
     }
+
+    public void setHasLongNeck(boolean hasLongNeck) {
+        this.hasLongNeck = hasLongNeck;
+    }
+
 }
