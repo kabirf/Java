@@ -4,11 +4,7 @@ package com.printer;
  * Created by sharlene on 2/24/2016.
  */
 public class Printer {
-    private String name;
-
-    public Printer(String name){
-        this.name = name;
-    }
+    protected String name;
 
     public String getName() {
         return name;
@@ -18,7 +14,10 @@ public class Printer {
         this.name = name;
     }
 
-    public String print(String name){
-        return "I am printing in ";
+    public String print(){
+        return " I am printing";
+    }
+    public String takeName(String name){
+        return "Hello " + name + print();
     }
 }

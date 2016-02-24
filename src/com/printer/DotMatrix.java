@@ -6,11 +6,17 @@ package com.printer;
 public class DotMatrix extends Printer{
 
     public DotMatrix(String name) {
-        super(name);
+        super();
+        this.name = name;
     }
 
     @Override
-    public String print(String name){
-        return "I am printing in " + name;
+    public String print(){
+        return " I am printing in ";
+    }
+
+    @Override
+    public String takeName(String name){
+        return "Hello " + name + print() + this.name;
     }
 }
