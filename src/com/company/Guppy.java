@@ -5,5 +5,8 @@ package com.company;
  */
 
 //Fish that lay babies
-public class Guppy {
+public class Guppy extends Fish{
+    public Guppy(String name, String sex) {
+        super(name, sex);
+    }
 }

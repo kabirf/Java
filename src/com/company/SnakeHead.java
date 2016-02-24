@@ -5,5 +5,8 @@ package com.company;
  */
 
 //Fish that lives on water and land
-public class SnakeHead {
+public class SnakeHead extends Fish {
+    public SnakeHead(String name, String sex) {
+        super(name, sex);
+    }
 }

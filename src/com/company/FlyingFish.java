@@ -5,5 +5,8 @@ package com.company;
  */
 
 //fish that can fly
-public class FlyingFish {
+public class FlyingFish extends Fish{
+    public FlyingFish(String name, String sex) {
+        super(name, sex);
+    }
 }
